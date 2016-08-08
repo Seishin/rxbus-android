@@ -1,30 +1,40 @@
-# RxBus
-
+RxBus
+======
 Easy to use events bus based on RxJava.
 
-# Usage
+Usage
+------
+1. Define event classes:
 
-1. Define event classes: 
-```Java
+  ```java
 class SampleEvent { /* Additional fields if needed */ }
 ```
+
 2. Register an object that you want to receive events:
-```Java
-RxBus.getInstance().register(this);
+
+  ```java
+class SampleEvent { /* Additional fields if needed */ }
 ```
 
 3. Declare a method and annotate it with Event annotation:
-```Java
+
+  ```java
 @Event(SampleEvent.class)
 public void onSampleEventReceived(SampleEvent event) { /* Do your work */}
 ```
 
 4. Send an event:
-```Java
+
+  ```java
 RxBus.getInstance().send(new SampleEvent());
 ```
 
 5. Unregister the subscribed object by:
-```Java
+ 
+  ```java
 RxBus.getInstance().unregister(this);
 ```
+
+Contribution
+-----
+Everyone is welcomed to contribute on this project! :)
