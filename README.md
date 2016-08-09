@@ -15,7 +15,7 @@ class SampleEvent { /* Additional fields if needed */ }
 2. Register an object that you want to receive events:
 
   ```java
-RxBus.register(this);
+RxBus.getInstance().register(this);
 ```
 
 3. Declare a method and annotate it with Event annotation:
