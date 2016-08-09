@@ -25,3 +25,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.1.0'
     compile project(path: ':rxbus')
 }
+
+apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
