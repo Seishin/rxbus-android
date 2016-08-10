@@ -2,7 +2,7 @@ RxBus
 ======
 Easy to use events bus based on RxJava.
 
-[![Build Status](https://travis-ci.org/Seishin/rxbus.svg?branch=master)](https://travis-ci.org/Seishin/rxbus)
+[![Build Status](https://travis-ci.org/Seishin/rxbus-android.svg?branch=master)](https://travis-ci.org/Seishin/rxbus-android)
 
 Download
 ------
