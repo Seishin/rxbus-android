@@ -4,6 +4,13 @@ Easy to use events bus based on RxJava.
 
 [![Build Status](https://travis-ci.org/Seishin/rxbus.svg?branch=master)](https://travis-ci.org/Seishin/rxbus)
 
+Download
+------
+Gradle:
+  ```
+compile 'com.github.seishin.rxbus:library:0.0.1'
+```
+
 Usage
 ------
 1. Define event classes:
